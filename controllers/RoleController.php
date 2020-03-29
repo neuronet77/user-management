@@ -1,13 +1,13 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\controllers;
+namespace neuronet\modules\UserManagement\controllers;
 
-use neuronet77\modules\UserManagement\components\AuthHelper;
-use neuronet77\modules\UserManagement\models\rbacDB\Permission;
-use neuronet77\modules\UserManagement\models\rbacDB\Role;
-use neuronet77\modules\UserManagement\models\rbacDB\search\RoleSearch;
+use neuronet\modules\UserManagement\components\AuthHelper;
+use neuronet\modules\UserManagement\models\rbacDB\Permission;
+use neuronet\modules\UserManagement\models\rbacDB\Role;
+use neuronet\modules\UserManagement\models\rbacDB\search\RoleSearch;
 use webvimark\components\AdminDefaultController;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\rbac\DbManager;
 
@@ -16,12 +16,12 @@ class RoleController extends AdminDefaultController
 	/**
 	 * @var Role
 	 */
-	public $modelClass = 'neuronet77\modules\UserManagement\models\rbacDB\Role';
+	public $modelClass = 'neuronet\modules\UserManagement\models\rbacDB\Role';
 
 	/**
 	 * @var RoleSearch
 	 */
-	public $modelSearchClass = 'neuronet77\modules\UserManagement\models\rbacDB\search\RoleSearch';
+	public $modelSearchClass = 'neuronet\modules\UserManagement\models\rbacDB\search\RoleSearch';
 
 	/**
 	 * @param string $id

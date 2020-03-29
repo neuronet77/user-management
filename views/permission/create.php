@@ -3,10 +3,10 @@
  *
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var neuronet77\modules\UserManagement\models\rbacDB\Permission $model
+ * @var neuronet\modules\UserManagement\models\rbacDB\Permission $model
  */
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 
 $this->title = UserManagementModule::t('back', 'Permission creation');
 $this->params['breadcrumbs'][] = ['label' => UserManagementModule::t('back', 'Permissions'), 'url' => ['index']];

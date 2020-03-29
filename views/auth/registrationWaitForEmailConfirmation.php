@@ -1,10 +1,10 @@
 <?php
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 
 /**
  * @var yii\web\View $this
- * @var neuronet77\modules\UserManagement\models\User $user
+ * @var neuronet\modules\UserManagement\models\User $user
  */
 
 $this->title = UserManagementModule::t('front', 'Registration - confirm your e-mail');

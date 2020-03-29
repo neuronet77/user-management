@@ -1,9 +1,9 @@
 <?php
 
-use neuronet77\modules\UserManagement\models\rbacDB\AuthItemGroup;
-use neuronet77\modules\UserManagement\models\rbacDB\Permission;
-use neuronet77\modules\UserManagement\models\rbacDB\Role;
-use neuronet77\modules\UserManagement\models\rbacDB\Route;
+use neuronet\modules\UserManagement\models\rbacDB\AuthItemGroup;
+use neuronet\modules\UserManagement\models\rbacDB\Permission;
+use neuronet\modules\UserManagement\models\rbacDB\Role;
+use neuronet\modules\UserManagement\models\rbacDB\Route;
 use yii\db\Migration;
 
 class m141207_001649_create_basic_user_permissions extends Migration

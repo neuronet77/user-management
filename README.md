@@ -20,13 +20,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require neuronet77/module-user-management
+composer require neuronet/module-user-management
 ```
 
 or add
 
 ```
-"neuronet77/module-user-management": "^1"
+"neuronet/module-user-management": "^1"
 ```
 
 to the require section of your `composer.json` file.
@@ -40,18 +40,18 @@ Configuration
 
 'components'=>[
 	'user' => [
-		'class' => 'neuronet77\modules\UserManagement\components\UserConfig',
+		'class' => 'neuronet\modules\UserManagement\components\UserConfig',
 
 		// Comment this if you don't want to record user logins
 		'on afterLogin' => function($event) {
-				\neuronet77\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
+				\neuronet\modules\UserManagement\models\UserVisitLog::newVisitor($event->identity->id);
 			}
 	],
 ],
 
 'modules'=>[
 	'user-management' => [
-		'class' => 'neuronet77\modules\UserManagement\UserManagementModule',
+		'class' => 'neuronet\modules\UserManagement\UserManagementModule',
 
 		// 'enableRegistration' => true,
 
@@ -96,8 +96,8 @@ To see full list of options check *UserManagementModule* file
 
 'modules'=>[
 	'user-management' => [
-		'class' => 'neuronet77\modules\UserManagement\UserManagementModule',
-	        'controllerNamespace'=>'vendor\neuronet77\modules\UserManagement\controllers', // To prevent yii help from crashing
+		'class' => 'neuronet\modules\UserManagement\UserManagementModule',
+	        'controllerNamespace'=>'vendor\neuronet\modules\UserManagement\controllers', // To prevent yii help from crashing
 	],
 ],
 
@@ -119,7 +119,7 @@ public function behaviors()
 {
 	return [
 		'ghost-access'=> [
-			'class' => 'neuronet77\modules\UserManagement\components\GhostAccessControl',
+			'class' => 'neuronet\modules\UserManagement\components\GhostAccessControl',
 		],
 	];
 }
@@ -132,8 +132,8 @@ Where you can go
 ```php
 
 <?php
-use neuronet77\modules\UserManagement\components\GhostMenu;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\components\GhostMenu;
+use neuronet\modules\UserManagement\UserManagementModule;
 
 echo GhostMenu::widget([
 	'encodeLabels'=>false,
@@ -231,7 +231,7 @@ Events can be handled via config file like following
 
 'modules'=>[
 	'user-management' => [
-		'class' => 'neuronet77\modules\UserManagement\UserManagementModule',
+		'class' => 'neuronet\modules\UserManagement\UserManagementModule',
 		'on afterRegistration' => function(UserAuthEvent $event) {
 			// Here you can do your own stuff like assign roles, send emails and so on
 		},

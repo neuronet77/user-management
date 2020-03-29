@@ -1,11 +1,11 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\controllers;
+namespace neuronet\modules\UserManagement\controllers;
 
 use webvimark\components\AdminDefaultController;
 use Yii;
-use neuronet77\modules\UserManagement\models\User;
-use neuronet77\modules\UserManagement\models\search\UserSearch;
+use neuronet\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\search\UserSearch;
 use yii\web\NotFoundHttpException;
 
 /**
@@ -16,12 +16,12 @@ class UserController extends AdminDefaultController
 	/**
 	 * @var User
 	 */
-	public $modelClass = 'neuronet77\modules\UserManagement\models\User';
+	public $modelClass = 'neuronet\modules\UserManagement\models\User';
 
 	/**
 	 * @var UserSearch
 	 */
-	public $modelSearchClass = 'neuronet77\modules\UserManagement\models\search\UserSearch';
+	public $modelSearchClass = 'neuronet\modules\UserManagement\models\search\UserSearch';
 
 	/**
 	 * @return mixed|string|\yii\web\Response

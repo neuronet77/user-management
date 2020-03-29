@@ -3,9 +3,9 @@
  * @var $this yii\web\View
  */
 
-namespace neuronet77\modules\UserManagement\components;
+namespace neuronet\modules\UserManagement\components;
 
-use neuronet77\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\User;
 use yii\helpers\Html;
 
 /**
@@ -13,7 +13,7 @@ use yii\helpers\Html;
  *
  * Show elements only to those, who can access to them
  *
- * @package neuronet77\modules\UserManagement\components
+ * @package neuronet\modules\UserManagement\components
  */
 class GhostHtml extends Html
 {

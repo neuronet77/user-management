@@ -1,7 +1,7 @@
 <?php
-namespace neuronet77\modules\UserManagement\models\rbacDB;
+namespace neuronet\modules\UserManagement\models\rbacDB;
 
-use neuronet77\modules\UserManagement\components\AuthHelper;
+use neuronet\modules\UserManagement\components\AuthHelper;
 use yii\base\Action;
 use yii\db\Expression;
 use yii\db\Query;

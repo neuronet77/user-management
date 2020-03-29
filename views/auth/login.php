@@ -1,11 +1,11 @@
 <?php
 /**
  * @var $this yii\web\View
- * @var $model neuronet77\modules\UserManagement\models\forms\LoginForm
+ * @var $model neuronet\modules\UserManagement\models\forms\LoginForm
  */
 
-use neuronet77\modules\UserManagement\components\GhostHtml;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\components\GhostHtml;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 ?>

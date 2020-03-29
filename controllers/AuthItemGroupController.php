@@ -1,9 +1,9 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\controllers;
+namespace neuronet\modules\UserManagement\controllers;
 
-use neuronet77\modules\UserManagement\models\rbacDB\AuthItemGroup;
-use neuronet77\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
+use neuronet\modules\UserManagement\models\rbacDB\AuthItemGroup;
+use neuronet\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch;
 use Yii;
 use webvimark\components\AdminDefaultController;
 
@@ -15,12 +15,12 @@ class AuthItemGroupController extends AdminDefaultController
 	/**
 	 * @var AuthItemGroup
 	 */
-	public $modelClass = 'neuronet77\modules\UserManagement\models\rbacDB\AuthItemGroup';
+	public $modelClass = 'neuronet\modules\UserManagement\models\rbacDB\AuthItemGroup';
 
 	/**
 	 * @var AuthItemGroupSearch
 	 */
-	public $modelSearchClass = 'neuronet77\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch';
+	public $modelSearchClass = 'neuronet\modules\UserManagement\models\rbacDB\search\AuthItemGroupSearch';
 
 	/**
 	 * Define redirect page after update, create, delete, etc

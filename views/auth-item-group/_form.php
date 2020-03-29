@@ -1,12 +1,12 @@
 <?php
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var neuronet77\modules\UserManagement\models\rbacDB\AuthItemGroup $model
+ * @var neuronet\modules\UserManagement\models\rbacDB\AuthItemGroup $model
  * @var yii\bootstrap\ActiveForm $form
  */
 ?>

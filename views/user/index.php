@@ -1,9 +1,9 @@
 <?php
 
-use neuronet77\modules\UserManagement\components\GhostHtml;
-use neuronet77\modules\UserManagement\models\rbacDB\Role;
-use neuronet77\modules\UserManagement\models\User;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\components\GhostHtml;
+use neuronet\modules\UserManagement\models\rbacDB\Role;
+use neuronet\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
@@ -15,7 +15,7 @@ use yii\grid\GridView;
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var neuronet77\modules\UserManagement\models\search\UserSearch $searchModel
+ * @var neuronet\modules\UserManagement\models\search\UserSearch $searchModel
  */
 
 $this->title = UserManagementModule::t('back', 'Users');

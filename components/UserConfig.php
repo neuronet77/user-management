@@ -1,20 +1,20 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\components;
+namespace neuronet\modules\UserManagement\components;
 
 use yii\web\User;
 use Yii;
 
 /**
  * Class UserConfig
- * @package neuronet77\modules\UserManagement\components
+ * @package neuronet\modules\UserManagement\components
  */
 class UserConfig extends User
 {
 	/**
 	 * @inheritdoc
 	 */
-	public $identityClass = 'neuronet77\modules\UserManagement\models\User';
+	public $identityClass = 'neuronet\modules\UserManagement\models\User';
 
 	/**
 	 * @inheritdoc

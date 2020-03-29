@@ -1,16 +1,16 @@
 <?php
 
-use neuronet77\modules\UserManagement\components\GhostHtml;
-use neuronet77\modules\UserManagement\models\rbacDB\Role;
-use neuronet77\modules\UserManagement\models\User;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\components\GhostHtml;
+use neuronet\modules\UserManagement\models\rbacDB\Role;
+use neuronet\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /**
  * @var yii\web\View $this
- * @var neuronet77\modules\UserManagement\models\User $model
+ * @var neuronet\modules\UserManagement\models\User $model
  */
 
 $this->title = $model->username;

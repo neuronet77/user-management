@@ -1,14 +1,14 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\models\search;
+namespace neuronet\modules\UserManagement\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use neuronet77\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\User;
 
 /**
- * UserSearch represents the model behind the search form about `neuronet77\modules\UserManagement\models\User`.
+ * UserSearch represents the model behind the search form about `neuronet\modules\UserManagement\models\User`.
  */
 class UserSearch extends User
 {

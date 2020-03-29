@@ -1,8 +1,8 @@
 <?php
-namespace neuronet77\modules\UserManagement\models\rbacDB;
+namespace neuronet\modules\UserManagement\models\rbacDB;
 
 use Exception;
-use neuronet77\modules\UserManagement\components\AuthHelper;
+use neuronet\modules\UserManagement\components\AuthHelper;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\rbac\DbManager;

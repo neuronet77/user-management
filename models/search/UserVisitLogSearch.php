@@ -1,15 +1,15 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\models\search;
+namespace neuronet\modules\UserManagement\models\search;
 
-use neuronet77\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\User;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use neuronet77\modules\UserManagement\models\UserVisitLog;
+use neuronet\modules\UserManagement\models\UserVisitLog;
 
 /**
- * UserVisitLogSearch represents the model behind the search form about `neuronet77\modules\UserManagement\models\UserVisitLog`.
+ * UserVisitLogSearch represents the model behind the search form about `neuronet\modules\UserManagement\models\UserVisitLog`.
  */
 class UserVisitLogSearch extends UserVisitLog
 {

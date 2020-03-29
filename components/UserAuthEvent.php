@@ -1,10 +1,10 @@
 <?php
-namespace neuronet77\modules\UserManagement\components;
+namespace neuronet\modules\UserManagement\components;
 
-use neuronet77\modules\UserManagement\models\forms\ConfirmEmailForm;
-use neuronet77\modules\UserManagement\models\forms\PasswordRecoveryForm;
-use neuronet77\modules\UserManagement\models\forms\RegistrationForm;
-use neuronet77\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\forms\ConfirmEmailForm;
+use neuronet\modules\UserManagement\models\forms\PasswordRecoveryForm;
+use neuronet\modules\UserManagement\models\forms\RegistrationForm;
+use neuronet\modules\UserManagement\models\User;
 use yii\base\Event;
 
 class UserAuthEvent extends Event

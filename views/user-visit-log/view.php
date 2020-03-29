@@ -1,12 +1,12 @@
 <?php
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /**
  * @var yii\web\View $this
- * @var neuronet77\modules\UserManagement\models\UserVisitLog $model
+ * @var neuronet\modules\UserManagement\models\UserVisitLog $model
  */
 
 $this->title = $model->id;

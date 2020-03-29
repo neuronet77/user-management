@@ -2,12 +2,12 @@
 /**
  * @var yii\web\View $this
  * @var array $permissionsByGroup
- * @var neuronet77\modules\UserManagement\models\User $user
+ * @var neuronet\modules\UserManagement\models\User $user
  */
 
-use neuronet77\modules\UserManagement\components\GhostHtml;
-use neuronet77\modules\UserManagement\models\rbacDB\Role;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\components\GhostHtml;
+use neuronet\modules\UserManagement\models\rbacDB\Role;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\BootstrapPluginAsset;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;

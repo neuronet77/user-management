@@ -1,15 +1,15 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\controllers;
+namespace neuronet\modules\UserManagement\controllers;
 
 
-use neuronet77\modules\UserManagement\components\AuthHelper;
-use neuronet77\modules\UserManagement\models\rbacDB\AbstractItem;
-use neuronet77\modules\UserManagement\models\rbacDB\Permission;
-use neuronet77\modules\UserManagement\models\rbacDB\Route;
-use neuronet77\modules\UserManagement\models\rbacDB\search\PermissionSearch;
+use neuronet\modules\UserManagement\components\AuthHelper;
+use neuronet\modules\UserManagement\models\rbacDB\AbstractItem;
+use neuronet\modules\UserManagement\models\rbacDB\Permission;
+use neuronet\modules\UserManagement\models\rbacDB\Route;
+use neuronet\modules\UserManagement\models\rbacDB\search\PermissionSearch;
 use webvimark\components\AdminDefaultController;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use Yii;
 
 class PermissionController extends AdminDefaultController
@@ -17,12 +17,12 @@ class PermissionController extends AdminDefaultController
 	/**
 	 * @var Permission
 	 */
-	public $modelClass = 'neuronet77\modules\UserManagement\models\rbacDB\Permission';
+	public $modelClass = 'neuronet\modules\UserManagement\models\rbacDB\Permission';
 
 	/**
 	 * @var PermissionSearch
 	 */
-	public $modelSearchClass = 'neuronet77\modules\UserManagement\models\rbacDB\search\PermissionSearch';
+	public $modelSearchClass = 'neuronet\modules\UserManagement\models\rbacDB\search\PermissionSearch';
 
 	/**
 	 * @param string $id

@@ -1,11 +1,11 @@
 <?php
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var neuronet77\modules\UserManagement\models\rbacDB\AuthItemGroup $model
+ * @var neuronet\modules\UserManagement\models\rbacDB\AuthItemGroup $model
  */
 
 $this->title = UserManagementModule::t('back', 'Creating permission group');

@@ -1,7 +1,7 @@
 <?php
-namespace neuronet77\modules\UserManagement\components;
+namespace neuronet\modules\UserManagement\components;
 
-use neuronet77\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\User;
 use yii\widgets\Menu;
 
 /**
@@ -10,7 +10,7 @@ use yii\widgets\Menu;
  * Show only those items in navigation menu which user can see
  * If item has no "visible" key, than "visible"=>User::canRoute($item['url') will be added
  *
- * @package neuronet77\modules\UserManagement\components
+ * @package neuronet\modules\UserManagement\components
  */
 class GhostMenu extends Menu
 {

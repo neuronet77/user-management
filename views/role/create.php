@@ -3,9 +3,9 @@
  *
  * @var yii\web\View $this
  * @var yii\widgets\ActiveForm $form
- * @var neuronet77\modules\UserManagement\models\rbacDB\Role $model
+ * @var neuronet\modules\UserManagement\models\rbacDB\Role $model
  */
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 
 $this->title = UserManagementModule::t('back', 'Role creation');
 $this->params['breadcrumbs'][] = ['label' => UserManagementModule::t('back', 'Roles'), 'url' => ['index']];

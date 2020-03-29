@@ -1,9 +1,9 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\components;
+namespace neuronet\modules\UserManagement\components;
 
-use neuronet77\modules\UserManagement\models\rbacDB\Route;
-use neuronet77\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\rbacDB\Route;
+use neuronet\modules\UserManagement\models\User;
 use yii\base\Action;
 use Yii;
 use yii\base\ActionFilter;

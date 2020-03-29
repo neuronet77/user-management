@@ -1,9 +1,9 @@
 {
-	"name": "neuronet77/module-user-management",
+	"name": "neuronet/module-user-management",
 	"description": "User with improved RBAC",
 	"autoload": {
 		"psr-4": {
-			"neuronet77\\modules\\UserManagement\\": ""
+			"neuronet\\modules\\UserManagement\\": ""
 		}
 	},
 	"require": {

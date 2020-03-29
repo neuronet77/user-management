@@ -1,9 +1,9 @@
 <?php
-namespace neuronet77\modules\UserManagement\models\forms;
+namespace neuronet\modules\UserManagement\models\forms;
 
 use webvimark\helpers\LittleBigHelper;
-use neuronet77\modules\UserManagement\models\User;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\base\Model;
 use Yii;
 

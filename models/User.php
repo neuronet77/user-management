@@ -1,14 +1,14 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\models;
+namespace neuronet\modules\UserManagement\models;
 
 use webvimark\helpers\LittleBigHelper;
 use webvimark\helpers\Singleton;
-use neuronet77\modules\UserManagement\components\AuthHelper;
-use neuronet77\modules\UserManagement\components\UserIdentity;
-use neuronet77\modules\UserManagement\models\rbacDB\Role;
-use neuronet77\modules\UserManagement\models\rbacDB\Route;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\components\AuthHelper;
+use neuronet\modules\UserManagement\components\UserIdentity;
+use neuronet\modules\UserManagement\models\rbacDB\Role;
+use neuronet\modules\UserManagement\models\rbacDB\Route;
+use neuronet\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 

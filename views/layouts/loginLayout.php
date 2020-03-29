@@ -1,6 +1,6 @@
 <?php
 use app\assets\AppAsset;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\BootstrapAsset;
 use yii\helpers\Html;
 

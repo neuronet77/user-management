@@ -1,8 +1,8 @@
 <?php
-namespace neuronet77\modules\UserManagement\models\forms;
+namespace neuronet\modules\UserManagement\models\forms;
 
-use neuronet77\modules\UserManagement\models\User;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\base\Model;
 use Yii;
 use yii\helpers\Html;
@@ -26,7 +26,7 @@ class RegistrationForm extends Model
 			[['username', 'password', 'repeat_password'], 'trim'],
 
 			['username', 'unique',
-				'targetClass'     => 'neuronet77\modules\UserManagement\models\User',
+				'targetClass'     => 'neuronet\modules\UserManagement\models\User',
 				'targetAttribute' => 'username',
 			],
 

@@ -1,5 +1,5 @@
 <?php
-namespace neuronet77\modules\UserManagement\components;
+namespace neuronet\modules\UserManagement\components;
 
 use yii\base\Event;
 

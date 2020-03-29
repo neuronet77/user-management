@@ -1,6 +1,6 @@
 <?php
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 
 /**
  * @var yii\web\View $this

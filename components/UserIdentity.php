@@ -1,7 +1,7 @@
 <?php
-namespace neuronet77\modules\UserManagement\components;
+namespace neuronet\modules\UserManagement\components;
 
-use neuronet77\modules\UserManagement\models\User;
+use neuronet\modules\UserManagement\models\User;
 use yii\base\Security;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;

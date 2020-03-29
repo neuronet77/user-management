@@ -1,13 +1,13 @@
 <?php
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var neuronet77\modules\UserManagement\models\forms\PasswordRecoveryForm $model
+ * @var neuronet\modules\UserManagement\models\forms\PasswordRecoveryForm $model
  */
 
 $this->title = UserManagementModule::t('front', 'Password recovery');

@@ -1,8 +1,8 @@
 <?php
 
-namespace neuronet77\modules\UserManagement\models\rbacDB;
+namespace neuronet\modules\UserManagement\models\rbacDB;
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 

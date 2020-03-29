@@ -1,9 +1,9 @@
 <?php
-namespace neuronet77\modules\UserManagement\models\rbacDB;
+namespace neuronet\modules\UserManagement\models\rbacDB;
 
-use neuronet77\modules\UserManagement\components\AuthHelper;
-use neuronet77\modules\UserManagement\components\AbstractItemEvent;
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\components\AuthHelper;
+use neuronet\modules\UserManagement\components\AbstractItemEvent;
+use neuronet\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\base\Event;
 use yii\base\ModelEvent;

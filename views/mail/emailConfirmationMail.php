@@ -1,7 +1,7 @@
 <?php
 /**
  * @var $this yii\web\View
- * @var $user neuronet77\modules\UserManagement\models\User
+ * @var $user neuronet\modules\UserManagement\models\User
  */
 use yii\helpers\Html;
 

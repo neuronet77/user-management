@@ -1,12 +1,12 @@
 <?php
 
-use neuronet77\modules\UserManagement\UserManagementModule;
+use neuronet\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var neuronet77\modules\UserManagement\models\User $model
+ * @var neuronet\modules\UserManagement\models\User $model
  */
 
 $this->title = UserManagementModule::t('back', 'Changing password for user: ') . ' ' . $model->username;
