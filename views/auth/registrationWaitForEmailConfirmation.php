@@ -1,10 +1,10 @@
 <?php
 
-use webvimark\modules\UserManagement\UserManagementModule;
+use neuronet77\modules\UserManagement\UserManagementModule;
 
 /**
  * @var yii\web\View $this
- * @var webvimark\modules\UserManagement\models\User $user
+ * @var neuronet77\modules\UserManagement\models\User $user
  */
 
 $this->title = UserManagementModule::t('front', 'Registration - confirm your e-mail');
