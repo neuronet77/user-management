@@ -1,6 +1,15 @@
 {
 	"name": "neuronet/module-user-management",
-	"description": "User with improved RBAC",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andreas Hinderberger",
+			"email": "info@ah-it-services.com",
+			"homepage": "https://ww.ah-it-services.com",
+			"role": "Developer"
+		}
+	],
+	"description": "User with improved RBAC | based on webvimark/module-user-management",
 	"autoload": {
 		"psr-4": {
 			"neuronet\\modules\\UserManagement\\": ""
