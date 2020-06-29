@@ -26,7 +26,7 @@ composer require neuronet/module-user-management
 or add
 
 ```
-"neuronet/module-user-management": "^1"
+"neuronet/module-user-management": "@dev"
 ```
 
 to the require section of your `composer.json` file.
