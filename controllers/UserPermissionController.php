@@ -1,12 +1,12 @@
 <?php
 
-namespace neuronet\controllers;
+namespace webvimark\controllers;
 
 use webvimark\components\BaseController;
-use neuronet\modules\UserManagement\models\rbacDB\Permission;
-use neuronet\modules\UserManagement\models\rbacDB\Role;
-use neuronet\modules\UserManagement\models\User;
-use neuronet\modules\UserManagement\UserManagementModule;
+use webvimark\modules\UserManagement\models\rbacDB\Permission;
+use webvimark\modules\UserManagement\models\rbacDB\Role;
+use webvimark\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\UserManagementModule;
 use yii\web\NotFoundHttpException;
 use Yii;
 

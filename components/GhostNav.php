@@ -1,7 +1,7 @@
 <?php
-namespace neuronet\modules\UserManagement\components;
+namespace webvimark\modules\UserManagement\components;
 
-use neuronet\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\models\User;
 use yii\bootstrap\Nav;
 
 /**
@@ -10,7 +10,7 @@ use yii\bootstrap\Nav;
  * Show only those items in navigation menu which user can see
  * If item has no "visible" key, than "visible"=>User::canRoute($item['url') will be added
  *
- * @package neuronet\modules\UserManagement\components
+ * @package webvimark\modules\UserManagement\components
  */
 class GhostNav extends Nav
 {

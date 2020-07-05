@@ -1,14 +1,14 @@
 <?php
 
-use neuronet\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\models\User;
 use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
-use neuronet\modules\UserManagement\UserManagementModule;
+use webvimark\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var neuronet\modules\UserManagement\models\User $model
+ * @var webvimark\modules\UserManagement\models\User $model
  */
 
 $this->title = UserManagementModule::t('back', 'Editing user: ') . ' ' . $model->username;

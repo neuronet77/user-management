@@ -1,10 +1,10 @@
 <?php
 
-namespace neuronet\modules\UserManagement\controllers;
+namespace webvimark\modules\UserManagement\controllers;
 
 use Yii;
-use neuronet\modules\UserManagement\models\UserVisitLog;
-use neuronet\modules\UserManagement\models\search\UserVisitLogSearch;
+use webvimark\modules\UserManagement\models\UserVisitLog;
+use webvimark\modules\UserManagement\models\search\UserVisitLogSearch;
 use webvimark\components\AdminDefaultController;
 
 /**
@@ -15,12 +15,12 @@ class UserVisitLogController extends AdminDefaultController
 	/**
 	 * @var UserVisitLog
 	 */
-	public $modelClass = 'neuronet\modules\UserManagement\models\UserVisitLog';
+	public $modelClass = 'webvimark\modules\UserManagement\models\UserVisitLog';
 
 	/**
 	 * @var UserVisitLogSearch
 	 */
-	public $modelSearchClass = 'neuronet\modules\UserManagement\models\search\UserVisitLogSearch';
+	public $modelSearchClass = 'webvimark\modules\UserManagement\models\search\UserVisitLogSearch';
 
 	public $enableOnlyActions = ['index', 'view', 'grid-page-size'];
 }

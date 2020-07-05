@@ -1,11 +1,11 @@
 <?php
 
-namespace neuronet\modules\UserManagement\components;
+namespace webvimark\modules\UserManagement\components;
 
-use neuronet\modules\UserManagement\models\rbacDB\AbstractItem;
-use neuronet\modules\UserManagement\models\rbacDB\Permission;
-use neuronet\modules\UserManagement\models\rbacDB\Role;
-use neuronet\modules\UserManagement\models\rbacDB\Route;
+use webvimark\modules\UserManagement\models\rbacDB\AbstractItem;
+use webvimark\modules\UserManagement\models\rbacDB\Permission;
+use webvimark\modules\UserManagement\models\rbacDB\Role;
+use webvimark\modules\UserManagement\models\rbacDB\Route;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\helpers\Inflector;
@@ -23,7 +23,7 @@ class AuthHelper
 	/**
 	 * Example how to handle layouts from config file
 	 *
-	 * 'on beforeAction'=>['neuronet\modules\UserManagement\components\AuthHelper', 'layoutHandler'],
+	 * 'on beforeAction'=>['webvimark\modules\UserManagement\components\AuthHelper', 'layoutHandler'],
 	 *
 	 * @param \yii\base\ActionEvent $event
 	 */

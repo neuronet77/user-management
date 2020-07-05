@@ -1,15 +1,15 @@
 <?php
 
-namespace neuronet\modules\UserManagement\controllers;
+namespace webvimark\modules\UserManagement\controllers;
 
 use webvimark\components\BaseController;
-use neuronet\modules\UserManagement\components\UserAuthEvent;
-use neuronet\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
-use neuronet\modules\UserManagement\models\forms\ConfirmEmailForm;
-use neuronet\modules\UserManagement\models\forms\LoginForm;
-use neuronet\modules\UserManagement\models\forms\PasswordRecoveryForm;
-use neuronet\modules\UserManagement\models\User;
-use neuronet\modules\UserManagement\UserManagementModule;
+use webvimark\modules\UserManagement\components\UserAuthEvent;
+use webvimark\modules\UserManagement\models\forms\ChangeOwnPasswordForm;
+use webvimark\modules\UserManagement\models\forms\ConfirmEmailForm;
+use webvimark\modules\UserManagement\models\forms\LoginForm;
+use webvimark\modules\UserManagement\models\forms\PasswordRecoveryForm;
+use webvimark\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\UserManagementModule;
 use Yii;
 use yii\web\ForbiddenHttpException;
 use yii\web\NotFoundHttpException;

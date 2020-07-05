@@ -1,10 +1,10 @@
 <?php
-namespace neuronet\modules\UserManagement\components;
+namespace webvimark\modules\UserManagement\components;
 
-use neuronet\modules\UserManagement\models\forms\ConfirmEmailForm;
-use neuronet\modules\UserManagement\models\forms\PasswordRecoveryForm;
-use neuronet\modules\UserManagement\models\forms\RegistrationForm;
-use neuronet\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\models\forms\ConfirmEmailForm;
+use webvimark\modules\UserManagement\models\forms\PasswordRecoveryForm;
+use webvimark\modules\UserManagement\models\forms\RegistrationForm;
+use webvimark\modules\UserManagement\models\User;
 use yii\base\Event;
 
 class UserAuthEvent extends Event

@@ -1,14 +1,14 @@
 <?php
 
-use neuronet\modules\UserManagement\models\User;
-use neuronet\modules\UserManagement\UserManagementModule;
+use webvimark\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\UserManagementModule;
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use webvimark\extensions\BootstrapSwitch\BootstrapSwitch;
 
 /**
  * @var yii\web\View $this
- * @var neuronet\modules\UserManagement\models\User $model
+ * @var webvimark\modules\UserManagement\models\User $model
  * @var yii\bootstrap\ActiveForm $form
  */
 ?>

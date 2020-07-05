@@ -1,9 +1,9 @@
 <?php
 
-namespace neuronet\modules\UserManagement\components;
+namespace webvimark\modules\UserManagement\components;
 
-use neuronet\modules\UserManagement\models\rbacDB\Route;
-use neuronet\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\models\rbacDB\Route;
+use webvimark\modules\UserManagement\models\User;
 use yii\base\Action;
 use Yii;
 use yii\base\ActionFilter;

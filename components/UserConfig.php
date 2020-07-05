@@ -1,20 +1,20 @@
 <?php
 
-namespace neuronet\modules\UserManagement\components;
+namespace webvimark\modules\UserManagement\components;
 
 use yii\web\User;
 use Yii;
 
 /**
  * Class UserConfig
- * @package neuronet\modules\UserManagement\components
+ * @package webvimark\modules\UserManagement\components
  */
 class UserConfig extends User
 {
 	/**
 	 * @inheritdoc
 	 */
-	public $identityClass = 'neuronet\modules\UserManagement\models\User';
+	public $identityClass = 'webvimark\modules\UserManagement\models\User';
 
 	/**
 	 * @inheritdoc

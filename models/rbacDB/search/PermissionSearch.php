@@ -1,5 +1,5 @@
 <?php
-namespace neuronet\modules\UserManagement\models\rbacDB\search;
+namespace webvimark\modules\UserManagement\models\rbacDB\search;
 
 class PermissionSearch extends AbstractItemSearch
 {

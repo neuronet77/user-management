@@ -1,12 +1,12 @@
 <?php
 
-use neuronet\modules\UserManagement\UserManagementModule;
+use webvimark\modules\UserManagement\UserManagementModule;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 
 /**
  * @var yii\web\View $this
- * @var neuronet\modules\UserManagement\models\forms\ChangeOwnPasswordForm $model
+ * @var webvimark\modules\UserManagement\models\forms\ChangeOwnPasswordForm $model
  */
 
 $this->title = UserManagementModule::t('back', 'Change own password');

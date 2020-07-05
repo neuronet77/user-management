@@ -1,5 +1,5 @@
 <?php
-namespace neuronet\modules\UserManagement\components;
+namespace webvimark\modules\UserManagement\components;
 
 use yii\base\Event;
 

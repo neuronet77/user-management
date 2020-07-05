@@ -1,8 +1,8 @@
 <?php
-namespace neuronet\modules\UserManagement\models\forms;
+namespace webvimark\modules\UserManagement\models\forms;
 
-use neuronet\modules\UserManagement\models\User;
-use neuronet\modules\UserManagement\UserManagementModule;
+use webvimark\modules\UserManagement\models\User;
+use webvimark\modules\UserManagement\UserManagementModule;
 use yii\base\Model;
 use Yii;
 
